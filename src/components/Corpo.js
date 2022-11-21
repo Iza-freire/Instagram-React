@@ -1,13 +1,13 @@
 import Stories from "./Stories"
-import Post from "./Post"
 import SiderBar from "./SiderBar"
+import Posts from "./Posts"
 
 export default function Corpo(){
     return(
            <div class="corpo">
         <div class="esquerda">
             <Stories/>
-            <Post/>
+            <Posts/>
         </div>
         <SiderBar/>
 
