@@ -11,7 +11,7 @@ export default function Usuario(props){
     }
     function MudarImagem(){
         const NewImagem= prompt("Insira o link da sua foto")
-        return NewImagem?setNewImagem(NewImagem):null;setNewImagem(NewImagem)
+        return NewImagem?setNewImagem(NewImagem):null;
     }
 
     return(
